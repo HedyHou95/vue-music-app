@@ -1,0 +1,3 @@
+<template>
+    <div>this is recommend page</div>
+</template>
