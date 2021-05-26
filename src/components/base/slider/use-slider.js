@@ -5,7 +5,7 @@ import { onMounted, onUnmounted, onActivated, onDeactivated, ref } from 'vue'
 
 BScroll.use(Slide)
 
-export default function useSlider (wrapperRef) {
+export default function useSlider (wrapperRef, options) {
   const slider = ref(null)
   const currentPageIndex = ref(0)
 
