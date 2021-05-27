@@ -15,7 +15,7 @@
                             v-for="item in albums"
                             :key="item.id">
                             <div class="icon">
-                                <img width="60" height="60" :src="item.pic">
+                                <img width="60" height="60" v-lazy="item.pic">
                             </div>
                             <div class="text">
                                 <h2 class="name">{{item.username}}</h2>
