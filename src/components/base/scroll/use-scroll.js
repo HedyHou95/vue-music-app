@@ -11,8 +11,6 @@ export default function useScroll (wrapperRef, options) {
             observeDOM: true,
             ...options
         })
-
-        console.log(scroll.value)
     })
 
     onUnmounted(() => {
